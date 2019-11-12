@@ -1,0 +1,12 @@
+{
+  "name": "fs-admin-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server/bin/index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
