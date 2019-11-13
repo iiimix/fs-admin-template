@@ -25,6 +25,7 @@ histor模式需要服务端支持始终返回index页面，前端处理服务异
 
 ## 选择样式预处理器（pick a css pre-processor）,选择Sass-SCSS
 
+为了后续支持ant-design-vue，这里改为选择less
 
 ## 选择ESLint+Prettier
 
@@ -36,4 +37,9 @@ histor模式需要服务端支持始终返回index页面，前端处理服务异
 
 ## 是否保存特性配置，保存方便下次创建项目使用，随后输入一个特性配置名称即可
 
+
+## 引入`Ant-design-vue`
+`npm i -S ant-design-vue`
+
+## 增加less-loader，由于antd-design-vue使用了less
 
