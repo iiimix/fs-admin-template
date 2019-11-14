@@ -42,4 +42,25 @@ histor模式需要服务端支持始终返回index页面，前端处理服务异
 `npm i -S ant-design-vue`
 
 ## 增加less-loader，由于antd-design-vue使用了less
+- 1. 使用`vue add style-resources-loader`
+- 2. 选择less
+- 3. 安装less, less-loader
+```npm i -D less less-loader```
+- 4. 修改vue.config.js,增加css
+```
+css: {
+    loaderOptions: {
+      less: {
+        // less 变量覆盖，用于自定义ant design主题色
+        modifyVars: {
+        },
+        javascriptEnabled: true
+      }
+    }
+  }
+```
+- 5. 修改style对应scss为less
 
+## 增加全局filter配置，位于utils/filter.js
+- 1. 安装moment时间插件
+- 2. 新增第一个filter，moment日期时间过滤器
